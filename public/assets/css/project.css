@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'welcometext'; /*a name to be used later*/
+    src: url('/font/GothicE.ttf'); /*URL to font*/
+}
+
+.boldtext {
+    font-weight: bold;
+    text-align: center;
+}
+a.menu:link, a.menu:visited {
+    font-family: welcometext;
+    text-decoration:none;
+    text-shadow: none;
+    color : white;
+    font-weight: bold;
+    font-size: larger;
+}
+ a.menu:hover, a.menu:active {
+     font-family: welcometext;
+     text-decoration: underline;
+ }
+
+.menurbg {
+    background-color: #D95B49;
+}
+
+.menugbg {
+    background-color: #5DB9A4;
+}
+
+.weltext {
+    font-family: welcometext;
+    font-size: large;
+    font-weight: bold;
+}
+
+.editlabeltext {
+    font-family: welcometext;
+    font-weight: bold;
+}
+.gap {
+    height: 30px;
+}
+.editwidth {
+    width: 500px;
+}
+.textstyle {
+    width: 500px;
+    height: 50px;
+}
+.adduser {
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+.mainarea {
+    width: auto;
+    min-height: 500px;
+}
+
+.footerstyle {
+    background-color:#B64136;
+
+    box-sizing: border-box;
+    position: relative;
+    bottom: 0;
+    padding-top: 20%;
+}
